@@ -8,14 +8,14 @@ The problem statements can be found in the problemstatement.txt file. The corres
 
 
 # Hadoop Version Used in the Project
-hduser@Diwakar:/home/diwakar$ hadoop version 
-Hadoop 2.6.0  
-Subversion https://git-wip-us.apache.org/repos/asf/hadoop.git -r e3496499ecb8d220fba99dc5ed4c99c8f9e33bb1 
-Compiled by jenkins on 2014-11-13T21:10Z   
-Compiled with protoc 2.5.0  
-From source with checksum 18e43357c8f927c0695f1e9522859d6a 
-This command was run using /usr/local/hadoop/share/hadoop/common/hadoop-common-2.6.0.jar 
-hduser@Diwakar:/home/diwakar$  
+hduser@Diwakar:/home/diwakar$ hadoop version<br />
+Hadoop 2.6.0<br />
+Subversion https://git-wip-us.apache.org/repos/asf/hadoop.git -r e3496499ecb8d220fba99dc5ed4c99c8f9e33bb1<br /> 
+Compiled by jenkins on 2014-11-13T21:10Z<br />
+Compiled with protoc 2.5.0<br /> 
+From source with checksum 18e43357c8f927c0695f1e9522859d6a<br /> 
+This command was run using /usr/local/hadoop/share/hadoop/common/hadoop-common-2.6.0.jar<br /> 
+hduser@Diwakar:/home/diwakar$<br />
 
 # How to get the output for second 
 
