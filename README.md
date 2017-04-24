@@ -133,4 +133,3 @@ hduser@Diwakar:/home/diwakar$ hadoop jar '/home/diwakar/Desktop/Hadoop/final-jar
 		Bytes Read=9460
 	File Output Format Counters 
 		Bytes Written=688
-
