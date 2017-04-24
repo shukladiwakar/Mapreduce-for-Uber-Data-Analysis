@@ -8,25 +8,25 @@ The problem statements can be found in the problemstatement.txt file. The corres
 
 
 # Hadoop Version Used in the Project
-hduser@Diwakar:/home/diwakar$ hadoop version
-Hadoop 2.6.0
-Subversion https://git-wip-us.apache.org/repos/asf/hadoop.git -r e3496499ecb8d220fba99dc5ed4c99c8f9e33bb1
-Compiled by jenkins on 2014-11-13T21:10Z
-Compiled with protoc 2.5.0
-From source with checksum 18e43357c8f927c0695f1e9522859d6a
-This command was run using /usr/local/hadoop/share/hadoop/common/hadoop-common-2.6.0.jar
-hduser@Diwakar:/home/diwakar$ 
+hduser@Diwakar:/home/diwakar$ hadoop version 
+Hadoop 2.6.0 
+Subversion https://git-wip-us.apache.org/repos/asf/hadoop.git -r e3496499ecb8d220fba99dc5ed4c99c8f9e33bb1 
+Compiled by jenkins on 2014-11-13T21:10Z 
+Compiled with protoc 2.5.0 
+From source with checksum 18e43357c8f927c0695f1e9522859d6a 
+This command was run using /usr/local/hadoop/share/hadoop/common/hadoop-common-2.6.0.jar 
+hduser@Diwakar:/home/diwakar$  
 
-# How to get the output for second
+# How to get the output for second 
 
 hduser@Diwakar:/home/diwakar$ hadoop jar '/home/diwakar/Desktop/Hadoop/final-jarfiles/Uber.jar' Uber2 /Projects/uber /op4
 
 # demo output
 
 hduser@Diwakar:/home/diwakar$ hadoop jar '/home/diwakar/Desktop/Hadoop/final-jarfiles/Uber.jar' Uber2 /Projects/uber /op4
-17/04/24 22:35:37 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-17/04/24 22:35:38 INFO Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
-17/04/24 22:35:38 INFO jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+17/04/24 22:35:37 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable 
+17/04/24 22:35:38 INFO Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id  
+17/04/24 22:35:38 INFO jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId= 
 17/04/24 22:35:38 WARN mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
 17/04/24 22:35:38 INFO input.FileInputFormat: Total input paths to process : 1
 17/04/24 22:35:38 INFO mapreduce.JobSubmitter: number of splits:1
