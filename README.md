@@ -24,41 +24,41 @@ hduser@Diwakar:/home/diwakar$ hadoop jar '/home/diwakar/Desktop/Hadoop/final-jar
 # demo output
 
 hduser@Diwakar:/home/diwakar$ hadoop jar '/home/diwakar/Desktop/Hadoop/final-jarfiles/Uber.jar' Uber2 /Projects/uber /op4
-17/04/24 22:35:37 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable 
-17/04/24 22:35:38 INFO Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id  
-17/04/24 22:35:38 INFO jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId= 
-17/04/24 22:35:38 WARN mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
-17/04/24 22:35:38 INFO input.FileInputFormat: Total input paths to process : 1
-17/04/24 22:35:38 INFO mapreduce.JobSubmitter: number of splits:1
-17/04/24 22:35:38 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_local1723100134_0001
-17/04/24 22:35:38 INFO mapreduce.Job: The url to track the job: http://localhost:8080/
-17/04/24 22:35:38 INFO mapreduce.Job: Running job: job_local1723100134_0001
-17/04/24 22:35:38 INFO mapred.LocalJobRunner: OutputCommitter set in config null
-17/04/24 22:35:38 INFO mapred.LocalJobRunner: OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
-17/04/24 22:35:39 INFO mapred.LocalJobRunner: Waiting for map tasks
-17/04/24 22:35:39 INFO mapred.LocalJobRunner: Starting task: attempt_local1723100134_0001_m_000000_0
-17/04/24 22:35:39 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
-17/04/24 22:35:39 INFO mapred.MapTask: Processing split: hdfs://localhost:54310/Projects/uber:0+9460
-17/04/24 22:35:39 INFO mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
-17/04/24 22:35:39 INFO mapred.MapTask: mapreduce.task.io.sort.mb: 100
-17/04/24 22:35:39 INFO mapred.MapTask: soft limit at 83886080
-17/04/24 22:35:39 INFO mapred.MapTask: bufstart = 0; bufvoid = 104857600
-17/04/24 22:35:39 INFO mapred.MapTask: kvstart = 26214396; length = 6553600
-17/04/24 22:35:39 INFO mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
-17/04/24 22:35:39 INFO mapred.LocalJobRunner: 
-17/04/24 22:35:39 INFO mapred.MapTask: Starting flush of map output
-17/04/24 22:35:39 INFO mapred.MapTask: Spilling map output
-17/04/24 22:35:39 INFO mapred.MapTask: bufstart = 0; bufend = 5310; bufvoid = 104857600
+17/04/24 22:35:37 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable<br /> 
+17/04/24 22:35:38 INFO Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id<br />
+17/04/24 22:35:38 INFO jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=<br />
+17/04/24 22:35:38 WARN mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.<br />
+17/04/24 22:35:38 INFO input.FileInputFormat: Total input paths to process : 1<br />
+17/04/24 22:35:38 INFO mapreduce.JobSubmitter: number of splits:1<br />
+17/04/24 22:35:38 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_local1723100134_0001<br />
+17/04/24 22:35:38 INFO mapreduce.Job: The url to track the job: http://localhost:8080/<br />
+17/04/24 22:35:38 INFO mapreduce.Job: Running job: job_local1723100134_0001<br />
+17/04/24 22:35:38 INFO mapred.LocalJobRunner: OutputCommitter set in config null<br />
+17/04/24 22:35:38 INFO mapred.LocalJobRunner: OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter<br />
+17/04/24 22:35:39 INFO mapred.LocalJobRunner: Waiting for map tasks<br />
+17/04/24 22:35:39 INFO mapred.LocalJobRunner: Starting task: attempt_local1723100134_0001_m_000000_0<br />
+17/04/24 22:35:39 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]<br />
+17/04/24 22:35:39 INFO mapred.MapTask: Processing split: hdfs://localhost:54310/Projects/uber:0+9460<br />
+17/04/24 22:35:39 INFO mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)<br />
+17/04/24 22:35:39 INFO mapred.MapTask: mapreduce.task.io.sort.mb: 100<br />
+17/04/24 22:35:39 INFO mapred.MapTask: soft limit at 83886080<br />
+17/04/24 22:35:39 INFO mapred.MapTask: bufstart = 0; bufvoid = 104857600<br />
+17/04/24 22:35:39 INFO mapred.MapTask: kvstart = 26214396; length = 6553600<br />
+17/04/24 22:35:39 INFO mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer<br />
+17/04/24 22:35:39 INFO mapred.LocalJobRunner: <br />
+17/04/24 22:35:39 INFO mapred.MapTask: Starting flush of map output<br />
+17/04/24 22:35:39 INFO mapred.MapTask: Spilling map output<br />
+17/04/24 22:35:39 INFO mapred.MapTask: bufstart = 0; bufend = 5310; bufvoid = 104857600<br />
 17/04/24 22:35:39 INFO mapred.MapTask: kvstart = 26214396(104857584); kvend = 26212984(104851936); length = 1413/6553600
-17/04/24 22:35:39 INFO mapred.MapTask: Finished spill 0
-17/04/24 22:35:39 INFO mapred.Task: Task:attempt_local1723100134_0001_m_000000_0 is done. And is in the process of committing
-17/04/24 22:35:39 INFO mapred.LocalJobRunner: map
-17/04/24 22:35:39 INFO mapred.Task: Task 'attempt_local1723100134_0001_m_000000_0' done.
-17/04/24 22:35:39 INFO mapred.LocalJobRunner: Finishing task: attempt_local1723100134_0001_m_000000_0
-17/04/24 22:35:39 INFO mapred.LocalJobRunner: map task executor complete.
-17/04/24 22:35:39 INFO mapred.LocalJobRunner: Waiting for reduce tasks
-17/04/24 22:35:39 INFO mapred.LocalJobRunner: Starting task: attempt_local1723100134_0001_r_000000_0
-17/04/24 22:35:39 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+17/04/24 22:35:39 INFO mapred.MapTask: Finished spill 0<br />
+17/04/24 22:35:39 INFO mapred.Task: Task:attempt_local1723100134_0001_m_000000_0 is done. And is in the process of committing<br />
+17/04/24 22:35:39 INFO mapred.LocalJobRunner: map<br />
+17/04/24 22:35:39 INFO mapred.Task: Task 'attempt_local1723100134_0001_m_000000_0' done.<br />
+17/04/24 22:35:39 INFO mapred.LocalJobRunner: Finishing task: attempt_local1723100134_0001_m_000000_0<br />
+17/04/24 22:35:39 INFO mapred.LocalJobRunner: map task executor complete.<br />
+17/04/24 22:35:39 INFO mapred.LocalJobRunner: Waiting for reduce tasks<br />
+17/04/24 22:35:39 INFO mapred.LocalJobRunner: Starting task: attempt_local1723100134_0001_r_000000_0<br />
+17/04/24 22:35:39 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]<br />
 17/04/24 22:35:39 INFO mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@4e761248
 17/04/24 22:35:39 INFO reduce.MergeManagerImpl: MergerManager: memoryLimit=334338464, maxSingleShuffleLimit=83584616, mergeThreshold=220663392, ioSortFactor=10, memToMemMergeOutputsThreshold=10
 17/04/24 22:35:39 INFO reduce.EventFetcher: attempt_local1723100134_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
